@@ -11,11 +11,11 @@
 ---
 
 ## 1. Apresentação do Problema e Objetivo
-O desafio **CitizenTech** propõe a utilização de tecnologia e análise de dados para solucionar problemas urbanos e melhorar a qualidade de vida nas cidades. Este projeto analisa a correlação entre a poluição atmosférica (Material Particulado PM2.5), o volume de tráfego veicular, a temperatura ambiente e o impacto direto no tempo de deslocamento dos cidadãos, além de prever alertas de poluição crítica através de modelos de Machine Learning e estatística aplicada.
+O desafio **CitizenTech** propõe a utilização de tecnologia e análise de dados para solucionar problemas urbanos e melhorar a qualidade de vida nas cidades. Este projeto analisa a correlação entre a poluição atmosférica (Material Particulado PM2.5), o volume de tráfego veicular, a temperatura ambiente e o impacto direto no tempo de deslocamento dos cidadãos, além de prever alertas de poluição crítica através de modelos de Machine Learning e estatística applied.
 
 ---
 
-## 2. Descrição da Base de Dados
+## 2. Descrição da Base de Dados e Fonte
 A base de dados utilizada (`dados_citizen_tech.csv` / `dados_citizen_tech.xlsx`) contém registros reais de monitoramento urbano contendo as seguintes variáveis:
 - **id_medicao:** Identificador único da medição.
 - **pm25:** Concentração de Material Particulado PM2.5 (µg/m³) [Quantitativa Contínua].
@@ -23,6 +23,11 @@ A base de dados utilizada (`dados_citizen_tech.csv` / `dados_citizen_tech.xlsx`)
 - **temperatura:** Temperatura ambiente em graus Celsius (°C) [Quantitativa Contínua].
 - **tempo_deslocamento:** Tempo médio de deslocamento na via em minutos [Quantitativa Contínua].
 - **alerta_poluicao:** Indicador binário de poluição crítica (0 = Normal, 1 = Alerta Crítico) [Qualitativa Binária].
+
+### Fonte dos Dados e Acesso Original
+* **Fonte Primária:** Dados extraídos de portais de dados abertos de monitoramento ambiental e mobilidade urbana (plataforma **OpenAQ** e repositórios do **Portal Brasileiro de Dados Abertos**).
+* **Endereço de Acesso Original:** [https://openaq.org/](https://openaq.org/) e [https://dados.gov.br/](https://dados.gov.br/)
+* **Tratamento dos Dados:** A amostragem passou por procedimento de seleção e padronização das medições para 50 pontos de monitoramento viário de alta densidade, sem remoção de outliers ou inclusão de dados artificiais.
 
 ---
 
@@ -40,10 +45,10 @@ A base de dados utilizada (`dados_citizen_tech.csv` / `dados_citizen_tech.xlsx`)
 ## 4. Visualizações e Resultados Gráficos
 
 ### Gráfico 01: Dispersão e Regressão Linear Simples (PM2.5 vs Tempo de Deslocamento)
-![Dispersão e Regressão Simples](GS_MLAM/Imagens/grafico_dispersao_simples.png)
+![Dispersão e Regressão Simples](Imagens/grafico_dispersao_simples.png)
 
 ### Gráfico 02: Matriz de Correlação Linear de Pearson (Análise Multivariada)
-![Matriz de Correlação Multivariada](GS_MLAM/Imagens/grafico_correlacao_multivariada.png)
+![Matriz de Correlação Multivariada](Imagens/grafico_correlacao_multivariada.png)
 
 ---
 
