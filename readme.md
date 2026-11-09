@@ -40,10 +40,10 @@ A base de dados utilizada (`dados_citizen_tech.csv` / `dados_citizen_tech.xlsx`)
 ## 4. Visualizações e Resultados Gráficos
 
 ### Gráfico 01: Dispersão e Regressão Linear Simples (PM2.5 vs Tempo de Deslocamento)
-![Dispersão e Regressão Simples](Imagens/grafico_dispersao_simples.png)
+![Dispersão e Regressão Simples](GS_MLAM/Imagens/grafico_dispersao_simples.png)
 
 ### Gráfico 02: Matriz de Correlação Linear de Pearson (Análise Multivariada)
-![Matriz de Correlação Multivariada](Imagens/grafico_correlacao_multivariada.png)
+![Matriz de Correlação Multivariada](GS_MLAM/Imagens/grafico_correlacao_multivariada.png)
 
 ---
 
